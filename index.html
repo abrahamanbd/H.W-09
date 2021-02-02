@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This our home work</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	
+<section class="wrapper">
+  <div class="box static">
+        <strong>Static</strong>
+    This is the default for every single page element. Different elements don't have different default values for positioning, they all start out as static. Static doesn't mean much, it just means that the element will flow into the page as it normally would. The only reason you would ever set an element to position: static is to forcefully-remove some positioning that got applied to an element outside of your control. This is fairly rare, as positioning doesn't cascade.
+  </div>
+  
+  <div class="box relative">
+    <strong>Relative</strong>
+    What it really means is "relative to itself". If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), it will no effect on it's positioning at all, it will be exactly as it would be if you left it as position: static; But if you DO give it some other positioning attribute, say, top: 10px;, it will shift it's position 10 pixels DOWN from where it would NORMALLY be.
+   </div>
+  
+  <div class="box absolute">
+    <strong>Absolute</strong>
+    position absolute will respect it's sibling and remove it's self from the normal flow of the page. But if we start adding properties like top, left it will use the bounderies of it's parent.
+   </div>
+  
+  <div class="box fixed">
+	    <strong>Fixed</strong>
+	    position absolute will respect it's sibling and remove it's self from the normal flow of the page. But if we start adding properties like top, left it will use the bounderies of it's parent.
+  </div>
+
+
+
+	<div class="title">
+  		<h1>All transform-property work</h1>
+  	</div>
+
+  <div class="transform-box-rotate">
+  	<div class="img-caption">
+  		<h2>Please hover picture</h2>
+  	</div>
+  	<img src="assets/img/tree-736885__340.png" width="310px" height="200px" alt="still-picture">
+  	<img src="assets/img/tree-736885__340.png" width="310px" height="200px" alt="still-picture">
+  	<img src="assets/img/tree-736885__340.png" width="310px" height="200px" alt="still-picture">
+  	<img src="assets/img/tree-736885__340.png" width="310px" height="200px" alt="still-picture">
+  </div>
+
+  <div class="transform-box-scale">
+  	<div class="img-caption">
+  		<h2>Please hover picture</h2>
+  	</div>
+  	<img src="assets/img/download.png" width="250px" height="170pxpx" alt="still-picture">
+  	<img src="assets/img/download.png" width="250px" height="170pxpx" alt="still-picture">
+  	<img src="assets/img/download.png" width="250px" height="170pxpx" alt="still-picture">
+  	<img src="assets/img/download.png" width="250px" height="170pxpx" alt="still-picture">
+  </div>
+
+  <div class="transform-box-skew">
+  	<div class="img-caption">
+  		<h2>Please hover picture</h2>
+  	</div>
+  	<img src="assets/img/images.png" width="250px" height="170pxpx" alt="still-picture">
+  	<img src="assets/img/images.png" width="250px" height="170pxpx" alt="still-picture">
+  	<img src="assets/img/images.png" width="250px" height="170pxpx" alt="still-picture">
+  	<img src="assets/img/images.png" width="250px" height="170pxpx" alt="still-picture">
+  </div>
+
+  <div class="transform-box-translate">
+  	<div class="img-caption">
+  		<h2>Please hover picture</h2>
+  	</div>
+  	<img src="assets/img/images-77.png" width="250px" height="170pxpx" alt="still-picture">
+  </div>
+
+</section>
+
+
+
+
+
+</body>
+</html>

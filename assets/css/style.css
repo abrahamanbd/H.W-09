@@ -1,0 +1,106 @@
+.wrapper{
+  height: 500px;
+  padding-top:20px;
+
+}
+
+.box{
+  display: inline-block;
+  padding: 20px;
+  width: 25%;
+  background-color: blue;
+  color: white;
+}
+
+.box > strong{
+  display:block;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+}
+
+.box.static{
+  position: static;
+}
+
+.box.relative{
+  position: relative;
+  bottom: 50px;
+  background-color: red;
+}
+
+.box.absolute{
+  position: absolute;
+  top: 85px;
+}
+
+.box.fixed{
+    position: fixed;
+    background-color: green;
+    top: 50%;
+    right: 0;
+}
+.title {
+    background: red;
+    text-align: center;
+}
+
+.title h1 {
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.transform-box-rotate {
+    margin: 150px auto;
+}
+.transform-box-rotate img {
+    transition: 2s;
+}
+.transform-box-rotate:hover img{
+  transform: rotate(45deg);
+}
+.img-caption {
+    background: red;
+    text-align: center;
+}
+
+.img-caption h2 {
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.transform-box-scale {
+    margin: 150px auto;
+    padding: 50px;
+}
+.transform-box-scale  img {
+    transition: 2s;
+}
+.transform-box-scale:hover img{
+  transform: scale(1.3);
+}
+.transform-box-scale img {
+    margin: 26px;
+}
+.transform-box-skew {
+    margin: 150px auto;
+    padding: 50px;
+}
+.transform-box-skew  img {
+    transition: 2s;
+}
+.transform-box-skew:hover img{
+  transform: skew(40deg);
+}
+.transform-box-skew img {
+    margin: 26px;
+}
+.transform-box-translate {
+    margin: 150px auto;
+}
+.transform-box-translate  img {
+    transition: 4s;
+}
+.transform-box-translate:hover img{
+  transform: translate(1000px);
+}
